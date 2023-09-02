@@ -6,6 +6,7 @@ metadata:
   labels:
     example.com/custom: custom_label_value
   annotations:
+    backstage.io/techdocs-ref: dir:.
     example.com/service-discovery: backstageTechdocsTest
   tags:
     - demo
