@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Backstage Techdocs Test 
+  description: Testing techdocs in github on local backstage instance
+  labels:
+    example.com/custom: custom_label_value
+  annotations:
+    example.com/service-discovery: backstageTechdocsTest
+  tags:
+    - demo
+    - test
+  links:
+    - url: https://admin.example-org.com
+      title: Admin Dashboard
+      icon: dashboard
+      type: admin-dashboard
+spec:
+  type: website
+  lifecycle: production
+  owner: platform-engineering-team
+  system: public-websites
