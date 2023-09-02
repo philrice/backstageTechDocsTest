@@ -3,5 +3,5 @@
 This is the first doc page
 
 ```
-this is a code block
+this is a code block with updated back ticks
 ```
